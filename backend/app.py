@@ -20,4 +20,5 @@ def suggest_book():
     return jsonify(random.choice(books))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
